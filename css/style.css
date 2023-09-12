@@ -28,3 +28,34 @@ body {
     font-weight: bold;
     vertical-align: middle;
 }
+
+.button-container {
+    display: block;
+    width: 700px;
+    height: 50px;
+    background-color: white;
+    border-radius: 2%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blu-button {
+    display:inline-block;
+    color: lightskyblue ;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    
+
+}
+
+.list-container {
+    display: block;
+    background-color: white;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+}
+
+
