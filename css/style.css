@@ -42,43 +42,36 @@ body {
     padding-right: 50px;
     display: flex;
 }
-button.style {
-    text-align: center;
-    padding: 2px;
-    border: none; 
-    border-radius: 2px;
-    margin-top: auto;
-    margin-bottom: auto;
-
-}
-.blu-button {
-    background-color: rgb(30, 101, 195);
-    color: white;
+.btn {
+    font-family: inherit;
     font-size: 12px;
     text-align: center;
     padding: 5px;
+    border-radius: 10%;
+    
+}
+
+.blu-button {
+    background-color: rgb(30, 101, 195);
+    color: white;
     border: none; 
-    border-radius: 2px;
     margin-top: auto;
     margin-bottom: auto;
 }
 
 .white-button {
     background-color: white;
-    text-align: center;
-    padding: 5px;
-    border-radius: 2px;
-    display: inline-block;
-    background-size: contain;
-    border: none;
-
+    border: 1px solid gray;
+    color: lightgray;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .list-container {
     display: block;
     background-color: white;
     width: 700px;
-    height: 600px;
+    height: fit-content;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2px;
@@ -124,50 +117,50 @@ ul , li {
 .editorial {
     margin-left: 5px;
     background-color: rgb(79, 169, 213);
-    border-radius: 40%;
     font-size: 10px;
     padding: 5px 10px 5px 10px;
+    border:none;
     color: white;
 }
 
 .q1-goals {
     margin-left: 5px;
     background-color: rgb(181, 95, 224);
-    border-radius: 40%;
     font-size: 10px;
     padding: 5px 10px 5px 10px;
     color: white;
+    border:none;
 
 }
 .recruiting {
     margin-left: 5px;
     background-color:lightseagreen;
-    border-radius: 40%;
     font-size: 10px;
     padding: 5px 10px 5px 10px;
     color: white;
+    border:none;
 }
 .mobile {
     margin-left: 5px;
     background-color:orange;
-    border-radius: 40%;
     font-size: 10px;
     padding: 5px 10px 5px 10px;
     color: white;
+    border:none;
 }
 .website {
     margin-left: 5px;
     background-color:violet;
-    border-radius: 40%;
     font-size: 10px;
     padding: 5px 10px 5px 10px;
     color: white;
+    border:none;
 }
 .sales {
     margin-left: 5px;
     background-color:greenyellow;
-    border-radius: 40%;
     font-size: 10px;
     padding: 5px 10px 5px 10px;
     color: white;
+    border:none;
 }
