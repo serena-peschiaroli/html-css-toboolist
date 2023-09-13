@@ -40,6 +40,7 @@ body {
     margin-right: auto;
     padding-left: 50px;
     padding-right: 50px;
+    padding-left: 50px;
     display: flex;
 }
 .btn {
@@ -114,53 +115,34 @@ ul , li {
     
 }
 
-.editorial {
+.tag {
     margin-left: 5px;
-    background-color: rgb(79, 169, 213);
     font-size: 10px;
-    padding: 5px 10px 5px 10px;
     border:none;
     color: white;
+    font-family: inherit;
+    border-radius: 10%;
+    padding: 5px 10px 5px 10px;
+
+}
+
+.editorial {
+    background-color: rgb(79, 169, 213);
 }
 
 .q1-goals {
-    margin-left: 5px;
     background-color: rgb(181, 95, 224);
-    font-size: 10px;
-    padding: 5px 10px 5px 10px;
-    color: white;
-    border:none;
 
 }
 .recruiting {
-    margin-left: 5px;
     background-color:lightseagreen;
-    font-size: 10px;
-    padding: 5px 10px 5px 10px;
-    color: white;
-    border:none;
 }
 .mobile {
-    margin-left: 5px;
     background-color:orange;
-    font-size: 10px;
-    padding: 5px 10px 5px 10px;
-    color: white;
-    border:none;
 }
 .website {
-    margin-left: 5px;
     background-color:violet;
-    font-size: 10px;
-    padding: 5px 10px 5px 10px;
-    color: white;
-    border:none;
 }
 .sales {
-    margin-left: 5px;
     background-color:greenyellow;
-    font-size: 10px;
-    padding: 5px 10px 5px 10px;
-    color: white;
-    border:none;
 }
